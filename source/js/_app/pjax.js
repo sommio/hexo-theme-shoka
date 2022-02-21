@@ -141,7 +141,7 @@ const siteInit = function () {
   quicklink.listen(CONFIG.quicklink)
 
   visibilityListener()
-  themeColorListener()
+  //themeColorListener()
 
   algoliaSearch(pjax)
 

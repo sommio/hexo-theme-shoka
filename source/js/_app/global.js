@@ -70,6 +70,7 @@ const changeMetaTheme = function(color) {
   $('meta[name="theme-color"]').attr('content', color);
 }
 
+
 const themeColorListener = function () {
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function(mediaQueryList) {
     if(mediaQueryList.matches){
