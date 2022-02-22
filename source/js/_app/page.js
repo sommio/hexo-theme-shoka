@@ -147,6 +147,7 @@ const postBeauty = function () {
     }
 
     var copyright = $('#copyright')
+    /*
     if(window.getSelection().toString().length > 30 && copyright) {
       event.preventDefault();
       var author = "# " + copyright.child('.author').innerText
@@ -161,6 +162,7 @@ const postBeauty = function () {
           return window.clipboardData.setData("text", textData);
       }
     }
+    */
   }
 
   $.each('li ruby', function(element) {
